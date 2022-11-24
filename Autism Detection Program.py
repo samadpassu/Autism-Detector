@@ -42,7 +42,7 @@ image_path = imread('Cropped image\\ cropped grayscale.jpeg')
 detection = FER()
 top_emotion = detection.top_emotion(image_path)
 top_emotion_list = list(top_emotion)
-print(f'***This is the dominant emotion in the human: {top_emotion_list}')
+print(f'***This is the dominant emotion: {top_emotion_list}')
 
 # Converting FER output into list
 converting_to_list = list(top_emotion)
@@ -79,4 +79,7 @@ def aut_percentage(x):
 
 
 # Printing the final results
-print(f'{autism_detector(emotion_detected)}, with {aut_percentage(per_detected)}')
+print(f'{autism_detector(emotion_detected)}, percent emotion = {aut_percentage(per_detected)}')
+
+
+#This project is still under development and will be further enchanced in the future, so stayed tuned!! 
