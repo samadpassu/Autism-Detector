@@ -79,5 +79,4 @@ def aut_percentage(x):
 
 
 # Printing the final results
-print(f'{autism_detector(emotion_detected)}, with {aut_percentage(per_detected)}% of the odd emotion, which shows'
-      f' a lack of interest.')
+print(f'{autism_detector(emotion_detected)}, with {aut_percentage(per_detected)}')
